@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[user]
+  name = chudosagashi
+  email = elire_longiligne.0o@icloud.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFml6ypG8cwAJP2VN43TWG/3o19EjZvCmvvX4q1fwnPU
+[remote "origin"]
+	url = git-chudosagashi:chudosagashi/raycast-slack-dnd
+	fetch = +refs/heads/*:refs/remotes/origin/*
