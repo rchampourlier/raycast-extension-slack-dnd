@@ -21,8 +21,8 @@ async function dnd(durationInMinutes: number) {
   await client.dnd.setSnooze({ num_minutes: durationInMinutes });
   await client.users.profile.set({
     profile: JSON.stringify({
-      status_text: "Deep Work - I'll check your messages later",
-      status_emoji: ":brain:",
+      status_text: "Focused",
+      status_emoji: ":man_in_lotus_position:",
       status_expiration: Math.floor((new Date().getTime() + durationInMinutes * 60 * 1000) / 1000),
     }),
   });
